@@ -124,13 +124,6 @@ model.fit(x=trn_X, y=trn_y, batch_size=20000, epochs=40, validation_data=(val_X,
 model.save('VGG19_model.h5')
 
 
-# In[20]:
-
-
-from keras.models import load_model
-model = load_model('VGG19_model.h5')
-
-
 # In[28]:
 
 
